@@ -5,26 +5,26 @@ public class Cancion {
     private int duracion;
     //constructor
     public Cancion(String nombre, int duracion) {
-    this.nombre = nombre;
-    this.duracion = duracion;
+        this.nombre = nombre;
+        this.duracion = duracion;
     }
     //getters y setters
     public String getNombre() {
-    return nombre;
+        return nombre;
     }
     public void setNombre(String nombre) {
-    this.nombre = nombre;
+        this.nombre = nombre;
     }
     public int getDuracion() {
-    return duracion;
+        return duracion;
     }
     public void setDuracion(int duracion) {
-    this.duracion = duracion;
+        this.duracion = duracion;
     }
     //toString
     @Override
     public String toString() {
-    return "Cancion [nombre=" + nombre + ", duracion=" + duracion + "]";
+        return "Cancion [nombre=" + nombre + ", duracion=" + duracion + "]";
     }
-    }
+}
     

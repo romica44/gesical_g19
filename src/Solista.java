@@ -8,11 +8,11 @@ public class Solista extends Musico {
     //constructor
     public Solista(String genero, int anioOficial, String discografica, String apellido, String nombre, String nacionalidad,
     Instrumento instrumento) {
-    super(genero, anioOficial, discografica);
-    this.apellido = apellido;
-    this.nombre = nombre;
-    this.nacionalidad = nacionalidad;
-    this.instrumento = instrumento;
+        super(genero, anioOficial, discografica);
+        this.apellido = apellido;
+        this.nombre = nombre;
+        this.nacionalidad = nacionalidad;
+        this.instrumento = instrumento;
     }
 
     Solista(String genero, int anioOficial, String discografica, String apellido, String nombre, String nacionalidad, String instrumento) {
@@ -20,34 +20,34 @@ public class Solista extends Musico {
     }
     //getters y setters
     public String getApellido() {
-    return apellido;
+        return apellido;
     }
     public void setApellido(String apellido) {
-    this.apellido = apellido;
+        this.apellido = apellido;
     }
     public String getNombre() {
-    return nombre;
+        return nombre;
     }
     public void setNombre(String nombre) {
-    this.nombre = nombre;
+        this.nombre = nombre;
     }
     public String getNacionalidad() {
-    return nacionalidad;
+        return nacionalidad;
     }
     public void setNacionalidad(String nacionalidad) {
-    this.nacionalidad = nacionalidad;
+        this.nacionalidad = nacionalidad;
     }
     public Instrumento getInstrumento() {
-    return instrumento;
+        return instrumento;
     }
     public void setInstrumento(Instrumento instrumento) {
-    this.instrumento = instrumento;
+        this.instrumento = instrumento;
     }
     //toString
     @Override
     public String toString() {
-    return "Solista [apellido=" + apellido + ", nombre=" + nombre + ", nacionalidad=" + nacionalidad + ", instrumento="
-    + instrumento + "]";
+        return "Solista [apellido=" + apellido + ", nombre=" + nombre + ", nacionalidad=" + nacionalidad + ", instrumento="
+        + instrumento + "]";
     }
-    }
+}
     

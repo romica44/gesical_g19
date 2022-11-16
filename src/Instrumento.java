@@ -5,29 +5,29 @@ public class Instrumento {
     private String tipo;
     //constructor
     public Instrumento(String nombre, String tipo) {
-    this.nombre = nombre;
-    this.tipo = tipo;
+        this.nombre = nombre;
+        this.tipo = tipo;
     }
     
     //getters y setters
     public String getNombre() {
-    return nombre;
+        return nombre;
     }
     
     public void setNombre(String nombre) {
-    this.nombre = nombre;
+        this.nombre = nombre;
     }
     
     public String getTipo() {
-    return tipo;
+        return tipo;
     }
     
     public void setTipo(String tipo) {
-    this.tipo = tipo;
+        this.tipo = tipo;
     }
 
     public void tocar() {
-    System.out.println("Tocar " + this.nombre);
+        System.out.println("Tocar " + this.nombre);
     }
     
     //toString
@@ -35,7 +35,7 @@ public class Instrumento {
     public String toString() {
     return "Instrumento [nombre=" + nombre + ", tipo=" + tipo + "]";
     }
-    }
+}
     
 //     La clase Instrumento implementa la
 // interface Tocable que debe tener el método tocar(). Este método se deberá implementar en las

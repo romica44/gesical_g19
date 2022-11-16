@@ -1,3 +1,4 @@
+import java.util.List;
 
 public class Disco {
     //atributos
@@ -7,41 +8,41 @@ public class Disco {
     //constructor
     
     public Disco(int anioEdicion, String titulo, List<Cancion> canciones) {
-    this.anioEdicion = anioEdicion;
-    this.titulo = titulo;
-    this.canciones = canciones;
+        this.anioEdicion = anioEdicion;
+        this.titulo = titulo;
+        this.canciones = canciones;
     }
     
     //getters y setters
     public int getAnioEdicion() {
-    return anioEdicion;
+        return anioEdicion;
     }
     
     public void setAnioEdicion(int anioEdicion) {
-    this.anioEdicion = anioEdicion;
+        this.anioEdicion = anioEdicion;
     }
     
     public String getTitulo() {
-    return titulo;
+        return titulo;
     }
     
     public void setTitulo(String titulo) {
-    this.titulo = titulo;
+        this.titulo = titulo;
     }
     
     public List<Cancion> getCanciones() {
-    return canciones;
+        return canciones;
     }
     
     public void setCanciones(List<Cancion> canciones) {
-    this.canciones = canciones;
+        this.canciones = canciones;
     }
     
     
     //toString
     @Override
     public String toString() {
-    return "Disco [anioEdicion=" + anioEdicion + ", titulo=" + titulo + ", canciones=" + canciones + "]";
+        return "Disco [anioEdicion=" + anioEdicion + ", titulo=" + titulo + ", canciones=" + canciones + "]";
     }
-    }
+}
     

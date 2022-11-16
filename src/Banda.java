@@ -8,9 +8,9 @@ public class Banda extends Musico {
     private List<Solista> solistas;
     //constructor
     public Banda(String genero, int anioOficial, String discografica, String titulo, List<Solista> solistas) {
-    super(genero, anioOficial, discografica);
-    this.titulo = titulo;
-    this.solistas = solistas;
+        super(genero, anioOficial, discografica);
+        this.titulo = titulo;
+        this.solistas = solistas;
     }
 
     Banda(String titulo, String genero, int anioOficial, String discografica) {
@@ -20,25 +20,25 @@ public class Banda extends Musico {
 
     //getters y setters
     public String getTitulo() {
-    return titulo;
+        return titulo;
     }
     
     public void setTitulo(String titulo) {
-    this.titulo = titulo;
+        this.titulo = titulo;
     }
     
     public List<Solista> getSolistas() {
-    return solistas;
+        return solistas;
     }
     
     public void setSolistas(List<Solista> solistas) {
-    this.solistas = solistas;
+        this.solistas = solistas;
     }
     
     //toString
     @Override
     public String toString() {
-    return "Banda [titulo=" + titulo + ", solistas=" + solistas + "]";
+        return "Banda [titulo=" + titulo + ", solistas=" + solistas + "]";
     }
-    }
+}
     
